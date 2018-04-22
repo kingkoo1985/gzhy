@@ -1,14 +1,14 @@
 {
-    "name": "liujx/yii2-app-advanced",
-    "description": "Yii2 ace-admin RBAC management background",
-    "keywords": ["yii2", "framework", "advanced", "project template", "admin", "auth", "rbac", "yii2-admin", "liujx"],
+    "name": "kingkoo/yii2-app-advanced",
+    "description": "Yii2 RBAC management background",
+    "keywords": ["yii2", "framework", "advanced", "project template", "admin", "auth", "rbac", "yii2-admin", "kingkoo"],
     "homepage": "http://www.yiiframework.com/",
     "type": "project",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "liujinxing",
-            "email": "jinxing.liu@qq.com"
+            "name": "kingkoo",
+            "email": "kingkoo1985@163.com"
         }
     ],
     "support": {
@@ -49,7 +49,7 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "https://asset-packagist.org"
+            "url": "https://packagist.phpcomposer.com"
         }
     ]
 }

@@ -1,8 +1,8 @@
-Yii2 ace Admin 后台模板
+Yii2 Admin 后台模板
 =======================
 
 ### 简介
-系统基于yii2高级版本开发，后台模板使用的ace admin。对于一般的后台开发，比较方便; 对于数据表的CURL操作都有封装，且所有操作都有权限控制。
+系统基于yii2高级版本开发，后台模板使用的admin。对于一般的后台开发，比较方便; 对于数据表的CURL操作都有封装，且所有操作都有权限控制。
 #### 特点
 * 使用RBAC权限管理，所有操作基于权限控制
 * 视图使用JS控制，数据显示使用的jquery.DataTables
@@ -11,7 +11,6 @@ Yii2 ace Admin 后台模板
 * PHP >= 5.4
 * MySQL
 ### 项目demo
-* 地址： [https://yii2.sh-jinger.com](https://yii2.sh-jinger.com)
 * 账号： admin
 * 密码： admin888
 ### 安装
@@ -23,7 +22,7 @@ php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
 1. 执行 composer 安装项目
         
     ```
-    php composer create-project liujx/yii2-app-advanced
+    php composer create-project kingkoo/yii2-app-advanced
     ```
 
 2. 执行该目录下的 init 初始化配置（生成本地配置文件）

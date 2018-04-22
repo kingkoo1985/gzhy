@@ -78,14 +78,26 @@ class SiteController extends \yii\web\Controller
     public function actionSystem()
     {
         // 用户信息
-        Yii::$app->view->params['user'] = Yii::$app->getUser()->identity;
-
         return $this->render('system', [
             'yii' => 'Yii ' . Yii::getVersion(),                      // Yii 版本
             'upload' => ini_get('upload_max_filesize'),      // 上传文件大小
         ]);
     }
+    /**
+     * 显示首页系统信息
+     *
+     * @return string
+     */
+    public function actionPerson()
+    {
+        // 用户信息
+        Yii::$app->view->params['user'] = Yii::$app->getUser()->identity;
 
+        return $this->render('person', [
+            'yii' => 'Yii ' . Yii::getVersion(),                      // Yii 版本
+            'upload' => ini_get('upload_max_filesize'),      // 上传文件大小
+        ]);
+    }
     /**
      * 后台管理员登录
      *
